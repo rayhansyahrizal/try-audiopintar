@@ -13,9 +13,9 @@ export default async function Home() {
         <div className="container mx-auto px-4 py-12">
           <div className="max-w-6xl mx-auto">
             {/* Header */}
-            <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 mb-16">
+            <div className="flex md:flex-row justify-between items-center space-y-8 md:space-y-0 mb-16">
               {/* Logo/Brand */}
-              <div className="text-center md:text-left">
+              <div className="text-left">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-white bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-300">
                   Audiopintar
                 </h1>
